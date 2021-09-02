@@ -1,5 +1,193 @@
-.logo_omf {
-  size: 30%;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+  html {
+  font-size: 16px;
+}
+
+body {
+  margin: auto;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  min-width: 1024px;
+  width: 100%;
+}
+
+header {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-family: "Shrikhand", sans-serif;
+}
+header .loc {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+#intro {
+  padding: 7rem 0 6rem 0;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin-top: 1rem;
+}
+#intro .btn {
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 1rem;
+  border-radius: 3rem;
+  background: #9356dc;
+  background: linear-gradient(4deg, #9356dc 5%, #ff79da 80%);
+  border: none;
+  color: #fff;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+#main--block {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 8rem auto;
+}
+
+#process {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  display: none;
+}
+
+#steps {
+  flex-direction: column;
+  margin-top: 13rem;
+}
+
+.btn_manual {
+  border: none;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  box-shadow: -0.3rem 0.3rem 0.6rem #c2c2c2;
+}
+
+.fas {
+  color: #747373;
+  padding: 0 0.5em;
+  font-size: 1.2em;
+}
+
+.btn--process--manual {
+  display: flex;
+  margin-bottom: 4rem;
+}
+.btn--process--manual:hover {
+  background-color: #e4d5f6;
+  transition: all 1s ease-in-out;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.btn--process--manual .number {
+  border: solid 1px #9356DC;
+  border-radius: 50%;
+  background: #9356DC;
+  background: linear-gradient(286deg, #9356dc 0%, #9356dc 50%);
+  color: #fff;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  z-index: 1;
+  margin-right: -1rem;
+}
+
+#container--results {
+  grid-template-rows: 0.75fr 0.75fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  display: grid;
+}
+
+.card--restaurant {
+  border-radius: 1rem;
+  box-shadow: -0.3rem 0.3rem 0.6rem #c2c2c2;
+}
+
+.wrapper--photo {
+  position: relative;
+  flex: 1;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card--desc {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+.card--desc .card--name {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 0.5rem 1rem;
+}
+.card--desc .card--loc {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 0 1rem;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.card--desc .card--fav {
+  align-self: flex-end;
+  margin-right: 1em;
+}
+
+footer {
+  padding: 3rem 3rem 1rem 3rem;
+  background-color: #343535;
+  color: #fff;
+  margin-top: 3rem;
+}
+footer .logo {
+  width: 10em;
+  margin: 0;
+  filter: invert(100);
+}
+footer .footer--flex {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+footer .footer--link {
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 200;
+  margin: 0.2rem;
+}
+footer .fas {
+  margin: 0 1rem;
+}
+footer:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
