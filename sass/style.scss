@@ -55,7 +55,7 @@ header {
     }
 }
 
-#main--block {
+#main__block {
     display: flex;
     justify-content: space-around;
     width: 90%;
@@ -89,7 +89,7 @@ h2 {
     font-size: 1.2em;
 }  
 
-.btn--process--manual{
+.btn__process__manual{
     display: flex;
     margin-bottom: 4rem;
     &:hover{
@@ -116,7 +116,7 @@ h2 {
     } 
 }
 
-#container--results {
+#container__results {
     grid-template-rows: 0.75fr 0.75fr;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
@@ -124,11 +124,11 @@ h2 {
 }
 
 
-    .card--restaurant{
+    .card__restaurant{
         border-radius: 1rem;
         box-shadow:-0.3rem 0.3rem 0.6rem #c2c2c2;
         }
-        .wrapper--photo{
+        .wrapper__photo{
         position: relative;
         flex: 1;
         }
@@ -137,23 +137,23 @@ h2 {
         border-radius: 1rem 1rem 0 0;
     }
      
-    .card--desc {
+    .card__desc {
         display: flex;
         justify-content: space-between;
         padding-bottom: 0.5rem;
-        .card--name{
+        .card__name{
         margin-block-start: 0;
         margin-block-end: 0;
         padding: 0.5rem 1rem;
         }
-        .card--loc{
+        .card__loc{
         margin-block-start: 0;
         margin-block-end: 0;
         padding: 0 1rem;
         font-weight: 300;
         font-size: 1rem;
         }
-        .card--fav{
+        .card__fav{
             align-self: flex-end;
             margin-right:1em;
         }
@@ -171,13 +171,13 @@ h2 {
             filter: invert(100);
         }
      
-        .footer--flex {
+        .footer__flex {
             display: flex;
             justify-content: space-between;
             width: 75%;
             margin: auto;
         }
-        .footer--link {
+        .footer__link {
             flex-direction: column;
             align-items: flex-end;
             display:flex;

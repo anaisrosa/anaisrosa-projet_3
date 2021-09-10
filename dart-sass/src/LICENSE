@@ -22,7 +22,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 Dart SDK license:
 
@@ -53,7 +53,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 _fe_analyzer_shared license:
 
@@ -86,7 +86,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 analyzer license:
 
@@ -119,7 +119,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 archive license:
 
@@ -214,7 +214,7 @@ bzip2:
 
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 args license:
 
@@ -247,7 +247,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 async, cli_util and shelf_static license:
 
@@ -280,7 +280,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 boolean_selector, shelf_packages_handler and test_descriptor license:
 
@@ -312,7 +312,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 charcode, glob, http_parser, path, pool, pub_semver, shelf_web_socket,
 source_maps, source_span, stack_trace, string_scanner, watcher and yaml license:
@@ -345,7 +345,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 checked_yaml and package_config license:
 
@@ -377,7 +377,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 cli_pkg license:
 
@@ -584,7 +584,7 @@ cli_pkg license:
    limitations under the License.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 cli_repl license:
 
@@ -614,7 +614,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 collection, mime, source_map_stack_trace, stream_channel and typed_data license:
 
@@ -646,7 +646,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 convert, crypto and vm_service license:
 
@@ -679,7 +679,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 coverage and quiver license:
 
@@ -886,7 +886,7 @@ coverage and quiver license:
    See the License for the specific language governing permissions and
    limitations under the License.
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 dart_style, http, matcher, shelf and test license:
 
@@ -919,7 +919,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 file license:
 
@@ -950,7 +950,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 frontend_server_client license:
 
@@ -983,7 +983,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 grinder and webkit_inspection_protocol license:
 
@@ -1017,7 +1017,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 http_multi_server license:
 
@@ -1050,7 +1050,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 io license:
 
@@ -1083,7 +1083,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 js license:
 
@@ -1115,7 +1115,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 json_annotation, pedantic, stream_transform and term_glyph license:
 
@@ -1147,7 +1147,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 logging license:
 
@@ -1179,7 +1179,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 meta license:
 
@@ -1212,7 +1212,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 node_interop license:
 
@@ -1242,7 +1242,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 node_preamble license:
 
@@ -1296,7 +1296,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 petitparser and xml license:
 
@@ -1324,7 +1324,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 pubspec_parse license:
 
@@ -1356,7 +1356,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 test_api and test_core license:
 
@@ -1389,7 +1389,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 test_process license:
 
@@ -1422,7 +1422,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 tuple license:
 
@@ -1449,7 +1449,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
---------------------------------------------------------------------------------
+________________________________________________________________________________
 
 web_socket_channel license:
 

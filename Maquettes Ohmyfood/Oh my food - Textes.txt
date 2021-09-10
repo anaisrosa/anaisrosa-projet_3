@@ -40,7 +40,7 @@ Mousse au chocolat
 Au piment d'Espelette et à la truffe noire
 23€  
   
----     
+__-     
 
 Le délice des sens
 
@@ -83,7 +83,7 @@ Tiramisu
 À la noisette
 23€
 
----
+__-
 
 La note enchantée
 
@@ -130,7 +130,7 @@ Tarte au citron meringuée
 Déstructurée
 23€
 
----
+__-
 
 À la française
 
