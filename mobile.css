@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+/* variables*/
+/* MIXINS*/
+/* BASES*/
 body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
@@ -9,11 +12,8 @@ body a {
   text-decoration: none;
 }
 
-.block__title {
-  padding: 1rem;
-}
-
-/* HEADER*/
+/* CSS-MOBILE*/
+/* HEADER INDEX*/
 #header-index {
   display: flex;
   flex-direction: column;
@@ -23,16 +23,29 @@ body a {
 .header__logo {
   padding: 1rem 0;
   text-align: center;
+  margin: 1rem 0 0 0;
+}
+.header__logo img {
+  width: 10em;
+}
+
+.block__title {
+  padding: 3rem 0.5rem 1rem 0;
 }
 
 .loc {
   width: 100%;
   margin: 0;
-  padding: 1rem 0;
+  padding: 0.6rem 0 0.8rem;
   text-align: center;
-  background-color: #eaeaea;
+  background-color: #e0e0e0;
   box-shadow: 0px -3px 5px -4px #7F7F7F;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.loc .fa-map-marker-alt {
+  padding-right: 0.7rem;
+  font-size: 1rem;
 }
 
 /* HEADER page menu*/
@@ -43,12 +56,96 @@ body a {
 }
 .header__menu .fas {
   position: absolute;
-  top: 1.5rem;
-  left: 1rem;
+  top: 2rem;
+  left: 2rem;
+  font-size: 1.6rem;
+  color: black;
 }
 
 .picture__above {
-  max-width: 100%;
+  width: 100%;
+  max-height: 15rem;
+  object-fit: cover;
+}
+.picture__above #container__results {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1.5rem;
+  justify-content: center;
+  margin: 6rem 30rem;
+}
+.picture__above .menu__container {
+  margin: -3.5rem 10rem 0 10rem;
+}
+.picture__above .menu__title {
+  display: grid;
+  grid-template-columns: 35% 35%;
+  margin: 0 15rem;
+  font-size: 1.8rem;
+}
+.picture__above .fa-heart {
+  justify-self: end;
+  font-size: 1.4em;
+}
+.picture__above .category__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2.5rem;
+}
+.picture__above .product__category {
+  margin: 2rem;
+  padding: 0;
+  font-size: 1.5rem;
+  height: 1.8rem;
+}
+.picture__above .product__list {
+  display: flex;
+  margin: 0 15rem;
+  justify-content: center;
+}
+.picture__above .card__product {
+  width: 25rem;
+  margin: 1rem;
+}
+.picture__above #container__results {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1.5rem;
+  justify-content: center;
+  margin: 6rem 30rem;
+}
+.picture__above .menu__container {
+  margin: -3.5rem 10rem 0 10rem;
+}
+.picture__above .menu__title {
+  display: grid;
+  grid-template-columns: 35% 35%;
+  margin: 0 15rem;
+  font-size: 1.8rem;
+}
+.picture__above .fa-heart {
+  justify-self: end;
+  font-size: 1.4em;
+}
+.picture__above .category__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2.5rem;
+}
+.picture__above .product__category {
+  margin: 2rem;
+  padding: 0;
+  font-size: 1.5rem;
+  height: 1.8rem;
+}
+.picture__above .product__list {
+  display: flex;
+  margin: 0 15rem;
+  justify-content: center;
+}
+.picture__above .card__product {
+  width: 25rem;
+  margin: 1rem;
 }
 
 /* BUTTONS*/
@@ -58,8 +155,10 @@ body a {
   background: #9356dc;
   background: linear-gradient(4deg, #9356dc 5%, #ff79da 80%);
   border: none;
+  font-size: 1rem;
   color: #fff;
   text-align: center;
+  margin-top: 1rem;
 }
 .btn:hover {
   cursor: pointer;
@@ -67,27 +166,38 @@ body a {
 
 .btn__order {
   display: flex;
-  margin: 3rem auto 4rem auto;
+  margin: 3rem auto 3rem auto;
   padding: 1rem 3rem;
 }
 
 .btn_manual {
+  display: flex;
+  align-items: center;
   border: none;
   padding: 1.5rem 4rem;
   font-weight: 700;
   border-radius: 1rem;
   box-shadow: 0px -3px 5px -4px #7F7F7F;
+  height: 4.5rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+.btn_manual .fas {
+  color: #747373;
+  padding: 0 2rem 0 0;
+  font-size: 1.3rem;
+  right: 1rem;
+  position: relative;
+  line-height: 1;
 }
 
-.fas {
-  color: #747373;
-  padding: 0 0.5em;
-  font-size: 1.2em;
+.step__text {
+  right: 1rem;
+  position: relative;
 }
 
 .btn__step__number {
   display: flex;
-  margin-bottom: 4rem;
 }
 
 .number {
@@ -108,9 +218,19 @@ body a {
 
 /* INTRO*/
 #intro {
-  padding: 3rem 1rem 2rem 1rem;
+  padding: 2.5rem 1rem;
   text-align: center;
   background-color: #F6F6F6;
+}
+#intro h1 {
+  width: 70%;
+  margin: auto;
+}
+#intro p {
+  letter-spacing: 0.025rem;
+  font-weight: 300;
+  font-size: 1.05rem;
+  margin-block-start: 0.75rem;
 }
 
 #steps {
@@ -126,7 +246,7 @@ body a {
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
-  padding: 1rem 0;
+  padding: 1rem auto;
 }
 
 h2 {
@@ -134,6 +254,7 @@ h2 {
   padding: 0 1rem;
   margin-block-start: 0;
   margin-block-end: 0;
+  margin: 0 0 0 1rem;
 }
 
 .card__restaurant {
@@ -186,11 +307,12 @@ h2 {
 .card__desc .card__fav {
   align-self: flex-end;
   margin-right: 1em;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 /* MAIN page menu*/
 .menu__container {
-  width: 100%;
   background-color: #f2f2f2;
   border-radius: 2rem 2rem 0 0;
   position: relative;
@@ -203,31 +325,33 @@ h2 {
   justify-content: space-between;
   font-family: "Shrikhand";
   padding: 1rem;
+  margin-top: 2.2rem;
+  letter-spacing: 0.01rem;
 }
 .menu__title .fa-heart {
   align-self: center;
   padding-right: 1rem;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
+  padding-top: 0.5rem;
 }
 
 /* MENU, CATEGORIES? PROCUCTS*/
 .product__category {
-  margin: 1rem;
-  padding-top: 2rem;
   height: 1.5rem;
   font-weight: 300;
   font-size: 1rem;
   text-transform: uppercase;
   border-bottom: solid 3px #99E2D0;
-  width: min-content;
+  width: 10%;
+  padding: 1rem 0 0 0;
 }
 
 .card__product {
   display: flex;
   justify-content: space-between;
-  padding: 0 1rem;
-  margin: 1rem;
-  box-shadow: 0px -3px 5px -4px #7F7F7F;
+  padding: 0 0.5rem;
+  margin: 0.75rem 1rem 0 1rem;
+  box-shadow: 0px -3px 5px -4px #7f7f7f;
   background-color: #fff;
   border-radius: 1rem;
 }
@@ -237,7 +361,7 @@ h2 {
 }
 .card__product .product__price {
   align-self: end;
-  padding: 0 1rem 1rem 0;
+  padding: 0 1rem 0.8rem 0;
   font-weight: 600;
 }
 
@@ -249,6 +373,7 @@ h2 {
   font-weight: 300;
   margin-block-start: 0;
   margin-block-end: 0;
+  padding-top: 0.3rem;
 }
 
 /* FOOTER index*/
@@ -274,7 +399,7 @@ footer .footer__link {
   font-weight: 700;
 }
 footer .fas {
-  padding: 0 0.3rem 0 0;
+  padding: 0 0.1rem 0 0;
   color: #fff;
   font-size: 0.75rem;
 }
@@ -287,6 +412,11 @@ footer a {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .block__title {
     display: none;
+  }
+
+  .picture__above {
+    width: 100%;
+    max-height: 20rem;
   }
 
   #steps {
@@ -303,6 +433,18 @@ footer a {
     margin: 1rem;
     padding: 1.5rem 1rem;
   }
+  #steps .btn_manual .fas {
+    color: #747373;
+    padding: 0 2rem 0 0;
+    font-size: 1.3rem;
+    position: relative;
+    line-height: 1;
+    left: 1.4rem;
+  }
+
+  .card__fav .fa-heart {
+    font-size: 1.4rem;
+  }
 
   #restaurant {
     display: grid;
@@ -311,13 +453,60 @@ footer a {
   #container__results {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-gap: 1.5rem;
     justify-content: center;
-    margin: 1.5rem;
+    margin: 3rem;
+  }
+
+  .fa-heart {
+    font-size: 1.2rem;
+  }
+
+  .menu__title {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+  }
+
+  .fa-heart {
+    justify-self: end;
+    font-size: 1.5em;
   }
 
   .category__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .product__category {
+    margin: 1rem;
+    padding: 0;
+    font-size: 1.5rem;
+    height: 1.8rem;
+  }
+
+  .product__list {
+    display: flex;
+    margin: 0 5rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .card__product {
+    width: 25rem;
+    margin: 1rem;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #steps .btn_manual .fas {
+    color: #747373;
+    padding: 0 2rem 0 0;
+    font-size: 1.3rem;
+    position: relative;
+    line-height: 1;
+    left: 0.5rem;
   }
 }
 @media only screen and (min-device-width: 1025px) and (max-device-width: 2560px) {
@@ -325,41 +514,38 @@ footer a {
     display: none;
   }
 
-  .block__title {
-    display: none;
-  }
-
-  #intro {
-    padding: 10rem 0 8rem 0;
-  }
-
   #steps {
+    display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  #steps .btn__step__number {
-    margin: 5rem;
-  }
-  #steps .number {
-    margin-right: -2rem;
-  }
-  #steps .btn_manual {
-    margin: 1rem;
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
+
+  .btn__step__number {
+    margin: 2rem;
   }
 
   #container__results {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 1.5rem;
+    grid-template-columns: 40% 40%;
     justify-content: center;
-    margin: 6rem 15rem;
+  }
+
+  .menu__container {
+    margin: -3.5rem 4rem 0 4rem;
+  }
+
+  .product__list {
+    display: flex;
   }
 
   .category__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .card__product {
+    width: 30rem;
   }
 }
 
