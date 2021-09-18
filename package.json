@@ -1,0 +1,21 @@
+{
+  "name": "projet-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:style.css",
+    "prefix": "postcss style.css --use autoprefixer -d prefixed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaisrosa/anaisrosa-projet_3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions"
+}
