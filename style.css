@@ -14,15 +14,15 @@ body a {
 
 /* CSS-MOBILE*/
 /* HEADER INDEX*/
-#header-index {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#header__index {
+  background-color: #e0e0e0;
 }
 
 .header__logo {
-  padding: 1rem 0;
-  margin: 1rem 0 0 0;
+  box-shadow: 0 0.3rem 0.6rem #c2c2c2;
+  width: 100%;
+  padding: 2rem 0 1rem 0;
+  background-color: #fff;
   text-align: center;
 }
 .header__logo img {
@@ -36,11 +36,11 @@ body a {
 .loc {
   padding: 0.6rem 0 0.8rem;
   text-align: center;
-  background-color: #e0e0e0;
-  box-shadow: 0px -3px 5px -4px #7F7F7F;
 }
 .loc .fa-map-marker-alt {
   padding-right: 0.7rem;
+  opacity: 1;
+  color: black;
 }
 
 /* HEADER page menu*/
@@ -61,7 +61,7 @@ body a {
 
 .picture__above {
   width: 100%;
-  max-height: 15rem;
+  max-height: 13rem;
   object-fit: cover;
 }
 .picture__above .menu__title {
@@ -99,20 +99,21 @@ body a {
 /* BUTTONS*/
 .btn {
   padding: 1rem;
+  box-shadow: 0 0.3rem 0.6rem #c2c2c2;
   margin-top: 1rem;
   text-align: center;
   border-radius: 2rem;
   background: #9356dc;
   color: #fff;
-  background: linear-gradient(4deg, #9356dc 5%, #ff79da 80%);
+  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   border: none;
   font-size: 1rem;
 }
 .btn:hover {
   cursor: pointer;
   transition: 0.2s;
-  opacity: 0.9;
-  box-shadow: 0px 0px 6px 0px rgba(53, 37, 37, 0.5);
+  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 184, 235, 0.9));
+  box-shadow: 0 0.3rem 10px rgba(0, 0, 0, 0.35);
 }
 
 .btn__order {
@@ -128,27 +129,40 @@ body a {
   width: 100%;
   border: none;
   border-radius: 1rem;
-  box-shadow: 0px -3px 5px -4px #7F7F7F;
-  padding: 1.5rem 4rem;
+  box-shadow: 0 0.3rem 0.6rem #c2c2c2;
+  padding: 1rem 1rem 1rem 4rem;
   margin: 1rem 0;
   font-weight: 700;
+  cursor: pointer;
 }
-.btn_manual .fas {
+.btn_manual .icon__manual {
   position: relative;
   right: 1rem;
   line-height: 1;
   color: #747373;
-  padding: 0 2rem 0 0;
   font-size: 1.3rem;
+  opacity: 1;
+}
+
+.btn_manual:hover > i {
+  color: #9356DC;
+}
+
+.btn_manual:hover {
+  background-color: #f2eafb;
 }
 
 .step__text {
   position: relative;
   right: 1rem;
+  width: 100%;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .btn__step__number {
   display: flex;
+  width: 20rem;
 }
 
 .number {
@@ -211,8 +225,8 @@ h2 {
 .card__restaurant {
   display: flex;
   flex-direction: column;
+  box-shadow: 0 0.3rem 0.6rem #c2c2c2;
   margin: 1rem;
-  box-shadow: -0.3rem 0.3rem 0.6rem #c2c2c2;
   border-radius: 1rem;
   position: relative;
 }
@@ -226,7 +240,7 @@ h2 {
   width: 100%;
   object-fit: cover;
   border-radius: 1rem 1rem 0 0;
-  height: 10rem;
+  height: 11rem;
 }
 
 .label__new {
@@ -267,7 +281,7 @@ h2 {
   background-color: #f2f2f2;
   border-radius: 2rem 2rem 0 0;
   position: relative;
-  margin-top: -3.5rem;
+  margin-top: -4rem;
   padding-bottom: 1rem;
 }
 
@@ -275,9 +289,14 @@ h2 {
   display: flex;
   justify-content: space-between;
   font-family: "Shrikhand";
-  padding: 1rem;
+  padding: 1.5rem 0 1.5rem 1.5rem;
   margin-top: 2.2rem;
   letter-spacing: 0.01rem;
+}
+.menu__title h1 {
+  width: 250%;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .menu__title .fa-heart {
   align-self: center;
@@ -298,13 +317,13 @@ h2 {
 }
 
 .card__product {
+  box-shadow: 0 0.3rem 0.6rem #c2c2c2;
   height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
-  margin: 0.75rem 1rem 0 1rem;
-  box-shadow: 0px -3px 5px -4px #7f7f7f;
+  margin: 0.75rem auto;
   background-color: #fff;
   border-radius: 1rem;
   overflow: hidden;
@@ -403,17 +422,17 @@ footer .footer__flex {
 }
 footer .logo {
   filter: invert(100);
-  width: 8rem;
-  padding-bottom: 1rem;
+  width: 6rem;
+  padding: 1rem 0;
 }
 footer .footer__link {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-weight: 700;
+  font-weight: 900;
 }
 footer .footer__icon {
-  padding: 0 0.2rem 0 0;
+  padding: 0 0.5rem 0 0;
   color: #fff;
   font-size: 0.75rem;
   opacity: 1;
@@ -421,7 +440,7 @@ footer .footer__icon {
 footer a {
   margin: 0.2rem;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -463,6 +482,7 @@ footer a {
 
   #restaurant {
     display: grid;
+    margin: 5rem auto;
   }
 
   #container__results {
@@ -543,14 +563,21 @@ footer a {
     margin: 2rem;
   }
 
+  .picture__above {
+    width: 100%;
+    max-height: 25rem;
+  }
+
   #container__results {
     display: grid;
     grid-template-columns: 40% 40%;
     justify-content: center;
+    margin: 5rem;
   }
 
   .menu__container {
-    margin: -3.5rem 4rem 10rem 4rem;
+    margin: -3.5rem 5rem 0 5rem;
+    padding-bottom: 4rem;
   }
 
   .product__list {
@@ -567,6 +594,10 @@ footer a {
   .card__product {
     /* width: 15rem; */
     margin: 1rem;
+  }
+
+  .btn__order {
+    margin: 5rem auto 4rem auto;
   }
 }
 /* Animation Loader */
@@ -680,6 +711,10 @@ footer a {
   animation-delay: 1.2s;
 }
 
+#product-10 {
+  animation-delay: 1.3333333333s;
+}
+
 /*coeur annimation*/
 /*au clic*/
 .fav__container {
@@ -694,7 +729,7 @@ footer a {
 }
 .fav__container .fa-heart {
   font-size: 1.8rem;
-  margin: 0.5rem 1rem;
+  margin: 1.25rem 1rem;
 }
 
 .fas {
