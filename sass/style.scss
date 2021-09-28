@@ -500,6 +500,9 @@ footer {
 @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px)  {
+    .loading { 
+        font-size: 2rem;
+    }
     .block__title {
         display: none;
     }
@@ -599,6 +602,11 @@ and (max-device-width: 1024px) {
 
 @media only screen 
 and (min-device-width: 1025px) {
+
+    .loading { 
+        font-size: 2rem;
+    }
+    
     .block__title {
         display:none;
     }
@@ -656,9 +664,9 @@ and (min-device-width: 1025px) {
     height: 100%;
     background-color: #fff;
     font-family: 'Shrikhand';
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin:auto;
-    padding:1rem;
+    padding: 1rem;
     position:fixed;
     z-index: 20;
     opacity: 0.7;
