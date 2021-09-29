@@ -1,0 +1,40 @@
+@mixin shadow {
+    box-shadow: 0 0.3rem 0.6rem #c2c2c2;
+}
+
+@mixin border-radius {
+    border-radius: 1rem;
+}
+
+@mixin margin-regular {
+    margin: 1rem;
+}
+
+@mixin padding-regular {
+    padding: 1rem;
+}
+
+@mixin padding-side {
+    padding: 0 1rem;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+@mixin flex-sp-bet {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin block-marg {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}

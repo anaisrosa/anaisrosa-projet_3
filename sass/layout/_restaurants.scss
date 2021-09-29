@@ -1,0 +1,64 @@
+/* MAIN page index*/
+#restaurants {
+    width: 100%;
+    @include flex-column;
+    background-color: #f2f2f2;
+    padding: 1rem auto;
+}
+h2 {
+    align-self: baseline;
+    @include padding-side;
+    @include block-marg;
+    margin: 0 0 0 1rem;
+}
+
+.card__restaurant {
+    @include flex-column;
+    @include shadow;
+    margin: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    a {
+        text-decoration: none;
+        color: black;
+        display: contents;
+    }
+}
+
+.img__wrapper {
+    width:100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+    height: 11rem; 
+}
+
+.label__new {
+    background-color:$tertiary;
+    color: darken($tertiary, 45%);
+    position: absolute;
+    top:1rem;
+    right:1rem;
+    padding: 0.4rem;
+}
+
+.card__desc {
+    @include flex-sp-bet;
+    padding-bottom: 0.5rem;
+    .card__name {
+        @include block-marg;
+        padding: 0.5rem 1rem;
+    }
+    .card__loc {
+        @include block-marg;
+        @include padding-side;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    
+    .card__fav {
+        align-self: flex-end;
+        margin-right:1em;
+        font-size:1.5rem;
+        font-weight: 300;
+    }
+}

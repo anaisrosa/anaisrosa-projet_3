@@ -1,0 +1,85 @@
+/* HEADER INDEX*/
+#header__index {
+    background-color: $drakgrey;
+}
+
+.header__logo {
+    @include shadow;
+    width: 100%;
+    padding: 2rem 0 1rem 0;  
+    background-color: $white;
+    text-align: center;
+    img {
+        width:10rem;
+    }
+}
+.block__title {
+    padding: 3rem 0.5rem 1rem 0;
+}
+
+.loc {
+    padding: 0.6rem 0 0.8rem;
+    text-align: center;
+    .fa-map-marker-alt{
+        padding-right: 0.7rem; 
+        opacity: 1;
+        color: black;
+    }
+}
+
+/* HEADER page menu*/
+
+.header__menu {
+    @include flex-column-center;
+    .fa-arrow-left {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        font-size: 1.6rem;
+        color: black;
+        z-index: 1;
+        opacity: 1;
+    }
+}
+
+.picture__above {
+    width: 100%;
+    max-height: 13rem;
+    object-fit: cover;
+    .menu__title {
+        display: grid;
+        grid-template-columns: 35% 35%;
+        margin: 0 15rem;
+        font-size: 1.8rem;
+    }
+    
+    .fa-heart {
+        justify-self: end;
+        font-size: 1.4em;    
+    }
+    
+    .category__list {
+        display:flex;
+        flex-direction: column;
+        margin: 0 2.5rem;
+    }
+    
+    .product__category {
+        padding: 0;
+        margin: 2rem;
+        height: 1.8rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .product__list {
+        display: flex;
+        justify-content: center;
+        margin: 0 15rem;
+    }
+    
+    .card__product {
+        /* width: 25rem;*/
+        margin: 1.5rem 1rem;
+    }
+}
