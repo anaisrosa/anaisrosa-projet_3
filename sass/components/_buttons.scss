@@ -14,9 +14,8 @@
     &:hover {
         cursor: pointer;
         transition: 0.2s;
-        background:  linear-gradient(
-    0deg,rgba(147,86,220,.9),rgba(255, 184, 235, 0.9));
-        box-shadow: 0 0.3rem 10px rgb(0, 0, 0 / 35%);
+        background:  linear-gradient(0deg,rgba(147,86,220,.9),rgba(255, 184, 235, 0.9));
+        box-shadow: 0 0.3rem 10px rgba(0 0 0 /35% );
     }
 }
 

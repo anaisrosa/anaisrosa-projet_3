@@ -89,8 +89,7 @@ and (max-device-width: 1024px)  {
     }
 }
 
-@media only screen and (min-device-width: 768px) 
-and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     #steps .btn_manual .fas {
         position: relative;
         left: 0.5rem;
@@ -102,21 +101,22 @@ and (max-device-width: 1024px) {
 }
 
 
-@media only screen 
-and (min-device-width: 1025px) {
+@media only screen and (min-device-width: 1025px) {
     
     .loading { 
+        width: 100%;
         font-size: 2rem;
     }
     
     .block__title {
         display:none;
     }
+    
     #steps{
-        display: flex;
         flex-direction: row;
         justify-content: center;
     }
+
     .img__wrapper{
         height: 12rem;
     }
