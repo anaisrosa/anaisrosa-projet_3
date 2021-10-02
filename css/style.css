@@ -498,7 +498,7 @@ footer a {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #f2f2f2;
-  padding: 1rem auto;
+  padding: 1rem 0;
 }
 
 h2 {
